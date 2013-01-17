@@ -1,4 +1,4 @@
-<%= search_form_for [:admin, @search], :url => '/admin/reports/order_export' do |s| %>
+<%= search_form_for [:admin, @search], :url => order_export_admin_reports_path do |s| %>
     <label><%= t("date_range") %></label><br />
     <div class="yui-g date-range-filter">
         <div class="yui-u sub-field first">
